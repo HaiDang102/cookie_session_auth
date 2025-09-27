@@ -17,7 +17,7 @@ Dự án này minh họa cách xây dựng hệ thống **Authentication** trong
 
 ### 1. Clone repo
 ```bash
-git clone cookie_session_auth
+git clone https://github.com/HaiDang102/cookie_session_auth.git
 cd cookie_session_auth
 ````
 
