@@ -45,6 +45,8 @@ và collection `sessions` để lưu cookie session.
 node app.js
 ```
 
+
+
 Server sẽ chạy tại:
 
 ```
@@ -52,6 +54,7 @@ http://localhost:3000
 ```
 
 ---
+![alt text](/public/img/nodeapp.jpg)
 
 ## 🧪 Test với Postman
 
@@ -63,9 +66,10 @@ http://localhost:3000
 
 ```json
 {
-  "username": "alice",
+  "username": "HaiDang",
   "password": "123456"
 }
+
 ```
 
 ✅ Kết quả:
@@ -73,6 +77,8 @@ http://localhost:3000
 ```json
 { "message": "User registered successfully!" }
 ```
+![alt text](/public/img/register.jpg)
+![alt text](<public/Img/checkinDatabase after register.jpg>)
 
 ---
 
@@ -84,7 +90,7 @@ http://localhost:3000
 
 ```json
 {
-  "username": "alice",
+  "username": "HaiDang",
   "password": "123456"
 }
 ```
@@ -94,16 +100,21 @@ http://localhost:3000
 ```json
 { "message": "Login successful!" }
 ```
+![alt text](public/Img/Login.jpg)
 
 👉 Trong Postman tab **Cookies**, bạn sẽ thấy cookie:
 
 ```
 connect.sid
+
 ```
+![alt text](<public/Img/Cookie connect.sid.jpg>)
+
 
 Đồng thời MongoDB lưu session trong collection `sessions`.
 
 ---
+![alt text](<public/Img/check session after login.jpg>)
 
 ### 3. Profile (Route bảo vệ)
 
@@ -115,10 +126,11 @@ connect.sid
 ```json
 {
   "_id": "67003cbd9a56eaa97e09f14a",
-  "username": "alice",
+  "username": "HaiDang",
   "__v": 0
 }
 ```
+![alt text](public/Img/Profile.jpg)
 
 ❌ Nếu chưa login hoặc session hết hạn:
 
@@ -138,10 +150,13 @@ connect.sid
 ```json
 { "message": "Logout successful!" }
 ```
+![alt text](public/Img/Logout.jpg)
+
 
  Lúc này cookie `connect.sid` bị xóa, gọi lại `/auth/profile` sẽ trả `Unauthorized`.
 
 ---
+
 
 ##  Cấu trúc thư mục
 
