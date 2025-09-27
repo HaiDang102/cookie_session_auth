@@ -63,7 +63,7 @@ http://localhost:3000
 
 ```json
 {
-  "username": "alice",
+  "username": "haidang",
   "password": "123456"
 }
 ```
@@ -84,7 +84,7 @@ http://localhost:3000
 
 ```json
 {
-  "username": "alice",
+  "username": "haidang",
   "password": "123456"
 }
 ```
@@ -115,7 +115,7 @@ connect.sid
 ```json
 {
   "_id": "67003cbd9a56eaa97e09f14a",
-  "username": "alice",
+  "username": "haidang",
   "__v": 0
 }
 ```
