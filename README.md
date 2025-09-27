@@ -54,7 +54,7 @@ http://localhost:3000
 ```
 
 ---
-![alt text](/public/img/nodeapp.jpg)
+
 
 ## 🧪 Test với Postman
 
@@ -77,7 +77,7 @@ http://localhost:3000
 ```json
 { "message": "User registered successfully!" }
 ```
-![alt text](/public/img/register.jpg)
+![alt text](public/Img/register.jpg)
 ![alt text](<public/Img/checkinDatabase after register.jpg>)
 
 ---
