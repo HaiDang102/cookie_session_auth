@@ -137,7 +137,7 @@ connect.sid
 ```json
 { "error": "Unauthorized" }
 ```
-
+![alt text](public/Img/checkprofilechuadangnhap.jpg)
 ---
 
 ### 4. Logout (Đăng xuất)
